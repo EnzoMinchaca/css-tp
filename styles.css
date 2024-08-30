@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: rgb(240, 240, 240);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .title {
@@ -9,5 +11,65 @@ body {
     color: white;
     background-color: rgb(78, 78, 78);
     padding: 1rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    
+}
+
+.bq {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subcontainer {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+    padding: 15px;
+}
+
+.tit {
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.mayus {
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin: 0;
+}
+
+.ital {
+    padding: 10px 20px;
+    font-style: italic;
+    background-color: rgba(209, 209, 209, 0.384);
+}
+
+.caja1 {
+    background-color: rgb(231, 231, 231);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px;
+    box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, 0.219);
+}
+
+.caja2 {
+    background-color: rgba(250, 206, 124, 0.658);
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px;
+    box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, 0.219);
 }
