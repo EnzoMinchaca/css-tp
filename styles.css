@@ -85,8 +85,9 @@ body {
     color: white;
     padding: 10px;
     border-radius: 5px;
-    top: 1.5rem;
-    left: 34rem;
+    top: 30px;
+    right: 0;
+    margin-right: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -98,5 +99,19 @@ body {
         left: 10rem;
         right: 2rem;
         top: 2rem;
+    }
+
+    .title {
+        font-size: 1.2rem;
+    }
+
+    .bq {
+        border: 1px solid black;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+
+    .subcontainer {
+        margin: 1rem 3rem 0rem 3rem;
     }
 }
